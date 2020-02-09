@@ -3,3 +3,6 @@ INPUT_BUCKET: name-of-s3-bucket
 PRESET_ID: 1351620000001-100180 # eg FullHD108i50
 PIPELINE_ID: 123456-abcdef # name of ElasticTranscoder pipeline to run
 INPUT_FILE_FMT: .mp4
+OUTPUT_BUCKET: name-of-s3-bucket # where resulting video is temporarily stored
+STITCHED_VIDEO_BUCKET: name-of-s3-bucket # permanent storage of stiched videos
+RAW_VIDEO_BUCKET: name-of-s3-bucket # permanent storage of raw video
